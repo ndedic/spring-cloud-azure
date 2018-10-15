@@ -13,6 +13,10 @@ public class KeyVaultPropertySource extends EnumerablePropertySource<KeyVaultOpe
         super(name, source);
     }
 
+    public void init() {
+
+    }
+
     @Override
     public String[] getPropertyNames() {
         return new String[0];
